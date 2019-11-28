@@ -7,6 +7,7 @@ class Counter extends React.Component {
   render() {
     return (
       <div className="container"><br />
+	  Checking the change in deployment
         Enter the step value: <input type="number" ref={this.stepRef} /><br /><br />
         <button className="btn btn-primary" onClick={() => {
           this.props.onIncrement(this.stepRef.current.value)
